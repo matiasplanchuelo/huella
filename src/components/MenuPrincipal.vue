@@ -96,6 +96,7 @@ export default {
   name: "MenuPrincipal",
   data() {
     return {
+      userData: {},
       rol: '',
       isAdmin: false,
       isOrgAdmin: false,
@@ -107,6 +108,11 @@ export default {
       cerrarSesionService.cerrarSesion(localStorage.getItem('token'))
       localStorage.removeItem('token');
       this.$router.push('/')
+    },
+    metaInfo() {
+      return {
+        title: `${this.userData.name}`
+      }
     }
   },
   mounted() {
