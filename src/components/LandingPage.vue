@@ -51,14 +51,7 @@
 
 <script>
 export default {
-  name: "LandingPage",
-  methods: {
-    metaInfo() {
-        return {
-          title: 'Huella Carbono DDS'
-        }
-    }
-  }
+  name: "LandingPage"
 }
 </script>
 
