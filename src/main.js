@@ -10,4 +10,4 @@ const app = createApp(App)
 app.use(router)
 app.mount('#app')
 
-Vue.use(VueMeta)
+app.use(VueMeta)
