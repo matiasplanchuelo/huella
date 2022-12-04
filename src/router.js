@@ -51,7 +51,7 @@ const router = createRouter({
             path: "/GuiaRecomendaciones",
             name: "GuiaRecomendaciones",
             beforeEnter(){ // esto es para redireccionar a una pagina externa (nuestro back corre en el puerto 8088)
-                window.location.href = process.env.VUE_APP_PUERTO_IP + localStorage.getItem('token') + '/recomendaciones';
+                window.location.href = process.env.VUE_APP_PUERTO_IP + '/' + localStorage.getItem('token') + '/recomendaciones';
             }
 
         },
