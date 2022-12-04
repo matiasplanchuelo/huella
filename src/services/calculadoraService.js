@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:8088";
+const BASE_API_URL = PUERTO_IP;
 
 class calculadoraService {
     HCAnual(organizacion, año) {

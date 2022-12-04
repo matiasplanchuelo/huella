@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:8088"; // que es en donde esta levantado spring (tomcat)
+const BASE_API_URL = PUERTO_IP; // que es en donde esta levantado spring (tomcat)
 
 class menuPrincipalService {
     obtenerRol(token){
