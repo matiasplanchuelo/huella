@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "https://http://tp-grupo5.herokuapp.com"; // que es en donde esta levantado spring (tomcat)
+const BASE_API_URL = "https://tp-grupo5.herokuapp.com"; // que es en donde esta levantado spring (tomcat)
 
 class LoginService {
     logear(mail, password) {
