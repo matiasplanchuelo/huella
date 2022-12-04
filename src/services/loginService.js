@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = process.env.PUERTO_IP; // que es en donde esta levantado spring (tomcat)
+const BASE_API_URL = "http://54.175.230.252:47093"; // que es en donde esta levantado spring (tomcat)
 
 class LoginService {
     logear(mail, password) {
