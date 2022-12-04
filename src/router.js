@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import LandingPage from "./components/LandingPage.vue"
 import Registro from "./components/Registro.vue"
 import InicioDeSesion from "./components/InicioDeSesion.vue"
@@ -20,7 +20,7 @@ import CrearAgenteSectorial from "@/components/CrearAgenteSectorial";
 import VincularMiembroXOrg from "@/components/VincularMiembroXOrg";
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             path: "/",
