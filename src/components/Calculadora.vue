@@ -38,7 +38,7 @@
 
       <div class="calculadora">
         <div class="display">
-          <div class="resultado" v-if="existeValor">{{valor}}</div> //resultado en el front
+          <div class="resultado" v-if="existeValor">{{valor}}</div>
         </div>
 
         <button class="buttonCalc" @click="mostrarHCAnual = !mostrarHCAnual;mostrarHCMensual = false;mostrarImpacto = false;mostrarIndicador = false; mostrarHCSectorTerritorial = false">HC Anual Org</button>
