@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const BASE_API_URL = process.env.PUERTO_IP;
+const BASE_API_URL = process.env.VUE_APP_PUERTO_IP;
 
 class reporteService {
     calcularHCXSector(token) {

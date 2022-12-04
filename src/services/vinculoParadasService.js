@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = process.env.PUERTO_IP; // que es en donde esta levantado spring (tomcat)
+const BASE_API_URL = process.env.VUE_APP_PUERTO_IP; // que es en donde esta levantado spring (tomcat)
 
 class vinculoParadasService {
     obtenerParadas(linea){
