@@ -6,7 +6,6 @@
         <ul class="ulMenu"> <!-- Si es admin de org -->
           <li> <RouterLink to="/MenuPrincipal">Home</RouterLink> </li>
           <li> <RouterLink to="/RegistrarMediciones">Registrar Mediciones</RouterLink></li>
-          <li> <RouterLink to="/VisualizarReportes">Ver Reportes</RouterLink> </li>
           <li> <RouterLink to="/DarAltaContactos">Alta Contactos</RouterLink> </li>
           <li> <RouterLink to="/VincularMiembroXOrg">Vincular Miembros</RouterLink> </li>
           <li> <RouterLink to="/" @click="cerrarSesion">Cerrar sesión</RouterLink> </li>
