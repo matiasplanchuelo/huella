@@ -11,16 +11,10 @@
             <RouterLink to="/Calculadora">Calculadora</RouterLink>
           </li>
           <li>
-            <RouterLink to="/RegistrarMediciones">Registrar Mediciones</RouterLink>
-          </li>
-          <li>
             <RouterLink to="/RegistrarTrayectos">Registrar Trayectos</RouterLink>
           </li>
           <li>
             <RouterLink to="/VincularConOrg">Vincular Org</RouterLink>
-          </li>
-          <li>
-            <RouterLink to="/VisualizarReportes">Ver Reportes</RouterLink>
           </li>
           <li>
             <RouterLink to="/GuiaRecomendaciones">Recomendaciones</RouterLink>
